@@ -599,6 +599,35 @@ textarea:focus{
   }*/
 /**********************************/
 
+
+
+/******* UNIQUEMENT POUR IE 10 OU + ***********/
+
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	   
+	.troisimages p {
+    border-left: 5px solid #ebc300;
+	}
+	.switchlanguage li .active{
+    border: 1px solid var #ebc300;
+	}
+	.ctaprincipal, .ctaprincipal:hover,.fa, .switchlanguage a, .titreart a, .citation:before  {
+    color: #ebc300;
+	}
+	.ctaprincipal.cta2, .miseenavant, #tableprivacy th{
+	background: #ebc300;
+	}
+	.nav-link:hover{
+		border-bottom: 2px solid #ebc300;
+	}
+}
+
+
+/**********************************************/
+
+
+
 @media (orientation: landscape) and (max-width:1024px) {
     .jumbotron > .container > .row{
         flex-direction: column;

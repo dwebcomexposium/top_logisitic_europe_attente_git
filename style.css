@@ -156,7 +156,7 @@ html, body {
   background-size: cover !important;
   height: 100vh;
   margin-bottom: 1em;
-  background: var(--main-image);
+  background: url(img/Image_de_fond_blanc.jpg);
   color: var(--color-hero);
   margin-top: -50px;
 }
@@ -285,7 +285,7 @@ min-width: 15%;
 	color: var(--main-color);
 }
 .bcimagedutexte{
-    background: var(--content-imagetexte);
+    background: url('img/meeting.jpg');
     background-position: 59% 59%;
     background-repeat: no-repeat;
     background-size: 182%;

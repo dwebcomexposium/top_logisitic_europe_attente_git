@@ -1003,7 +1003,7 @@ textarea:focus{
     }
     
     .counter{
-        width: 95%;
+        width: 60% !important;
     }
     .header{
         width: 100%;
@@ -1047,8 +1047,9 @@ textarea:focus{
     .rowpub .publicite img {
         max-width: 300px;
     }
+	
 	.containercontent {
-    transform: translateY(-67px);
+    transform: translateY(-67px) !important;
 }
     div.textintro {
         text-align: center;

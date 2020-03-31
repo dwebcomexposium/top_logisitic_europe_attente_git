@@ -1003,7 +1003,7 @@ textarea:focus{
     }
     
     .counter{
-        width: 60% !important;
+        width: 95%;
     }
     .header{
         width: 100%;
@@ -1047,10 +1047,6 @@ textarea:focus{
     .rowpub .publicite img {
         max-width: 300px;
     }
-	
-	.containercontent {
-    transform: translateY(-67px) !important;
-	}
     div.textintro {
         text-align: center;
         line-height: 26px;
@@ -1205,17 +1201,11 @@ textarea:focus{
     max-width: 1270px;
 }
 }
-@media screen and (max-width: 1280px){
+@media only screen and (max-width: 1280px){
 
 	.jumbotron span.baseline{
-		font-size: 18px;
+		font-size: 18px
 	}
-	.containercontent {
-    transform: translateY(-6px);
-}
-.counter {
-    width: 33% !important;
-}
 }
 
 @media (min-width: 1200px){

@@ -1076,7 +1076,7 @@ textarea:focus{
         padding-top: 42px;
     }
     .jumbotron span.baseline{
-        font-size: 15px;
+        font-size: 15px !important;
         line-height: 1.2em;
     }
     .jumbotron:before{
@@ -1204,7 +1204,7 @@ textarea:focus{
 @media only screen and (max-width: 1280px){
 
 	.jumbotron span.baseline{
-		font-size: 18px
+		font-size: 18px;
 	}
 }
 

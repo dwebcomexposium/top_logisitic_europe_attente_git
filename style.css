@@ -1047,6 +1047,9 @@ textarea:focus{
     .rowpub .publicite img {
         max-width: 300px;
     }
+	.containercontent {
+    transform: translateY(-67px);
+}
     div.textintro {
         text-align: center;
         line-height: 26px;

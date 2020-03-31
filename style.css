@@ -1201,6 +1201,18 @@ textarea:focus{
     max-width: 1270px;
 }
 }
+@media only screen and (max-width: 1280px){
+
+	.jumbotron span.baseline{
+		font-size: 18px;
+	}
+	.containercontent {
+    transform: translateY(-6px);
+}
+.counter {
+    width: 33% !important;
+}
+}
 
 @media (min-width: 1200px){
     .containerheader {

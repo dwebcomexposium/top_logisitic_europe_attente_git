@@ -26,7 +26,18 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.row.counter {
+    position: absolute;
+    top: -5em;
+    left: 0;
+    right: 0;
+}
+.container.containercontent {
+    position: relative;
+}
+.containercontent {
+    transform: inherit;
+}
 .jumbotron span.baseline{
     display: block;
     color: var(--color-hero);
@@ -313,7 +324,7 @@ h4{
     height: 100px;
     transform: translateY(-60px) !important;
     margin: 0 auto !important;
-    width: 33%;
+    width: 40%;
     box-shadow: 0 8px 21px rgba(0,0,0,0.1);
     border-radius: 6px;
     overflow: hidden;
@@ -553,9 +564,9 @@ h2{
     text-align: center;
     color: #000000;
 }
-.containercontent{
+/**.containercontent{
     transform: translateY(-67px);
-} 
+} **/
 .number-container{
     display: flex;
     flex-wrap: wrap;
@@ -902,7 +913,7 @@ textarea:focus{
         
     }
     .counter{
-        width: 60%;
+        width: 40%;
     }
 }
 @media screen and (max-width:1024px) {
@@ -913,7 +924,7 @@ textarea:focus{
         background-size: cover !important;
     }
     .counter{
-        width: 60% !important;
+        width: 40% !important;
     }
     
 }
@@ -1100,9 +1111,9 @@ textarea:focus{
         margin: 0 auto !important;
     }
     .containercontent > .row:first-child {
-        margin-top: 4.8em !important;
-        width: 100% !important;
-        margin: 0 auto;
+            margin-top: 4.5em !important;
+    width: 93% !important;
+    margin: 0 auto;
     }
     .containerheader .col.alignselfcenter.align-left {
         padding: 3px;

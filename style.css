@@ -28,7 +28,7 @@ html, body {
 
 .row.counter {
     position: absolute;
-    top: -5em;
+    top: -4.6em;
     left: 0;
     right: 0;
 }
@@ -919,6 +919,7 @@ textarea:focus{
     }
     .counter{
         width: 45%;
+		height: 85px !important;
     }
 }
 @media screen and (max-width:1024px) {

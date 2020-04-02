@@ -155,8 +155,13 @@ div.textintro::before{
 
 .rowpub {
     place-content: center;
+	margin-bottom: 3.5em !important;
 }
 
+
+.rowpub a {
+    padding: 10px;
+}
 .rowpub p{
     text-align: center;
     width: 100%;
@@ -1072,7 +1077,7 @@ textarea:focus{
     .containerimg-auditorium{
         display: none;
     }
-    .rowpub .publicite img {
+    .rowpub img {
         max-width: 300px;
     }
     div.textintro {

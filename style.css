@@ -945,7 +945,7 @@ textarea:focus{
         background-repeat: no-repeat !important;
     }
     .counter{
-        width: 95%;
+        width: 93% !important;
         transform: translateY(-15px) !important;
     }
     .containerheader br {
@@ -1073,7 +1073,7 @@ textarea:focus{
 		min-height: 90px;
 	}
 }
-@media screen and (max-width:478px){
+@media screen and (max-width:769px){
     .containerimg-auditorium{
         display: none;
     }

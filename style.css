@@ -28,7 +28,7 @@ html, body {
 
 .row.counter {
     position: absolute;
-    top: -4.6em;
+    top: -4.4em;
     left: 0;
     right: 0;
 }
@@ -326,7 +326,7 @@ h4{
     text-align: center;
     display: flex;
     align-content: center;
-    height: 100px;
+    height: 85px;
     transform: translateY(-60px) !important;
     margin: 0 auto !important;
     width: 40%;

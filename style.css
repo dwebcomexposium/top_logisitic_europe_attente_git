@@ -1050,7 +1050,24 @@ textarea:focus{
             align-self: center;
         }
 }
-
+@media screen and (max-width: 600px) {
+	.ctaheader {
+        text-align: center;
+        flex-grow: inherit;
+        flex-basis: inherit;
+        max-width: 100%;
+		    margin-top: -20px;
+        
+    }
+	.contentswitchlanguage {
+    position: absolute;
+    top: 22px;
+    right: 0px;
+}
+	.header {
+		min-height: 90px;
+	}
+}
 @media screen and (max-width:478px){
     .containerimg-auditorium{
         display: none;
@@ -1140,11 +1157,17 @@ textarea:focus{
         padding-top: 20px;
     }
     .ctaheader{
-        display: none;
+        display: none; 
+		margin: 4px;
     }
-    .ctaheader li{
-        margin: 4px;
-    }
+	.contentswitchlanguage {
+    position: inherit;
+    top: inherit;
+    right: inherit;
+}
+	.header {
+		min-height: inherit;
+	}
     .ctaprincipal {
         padding: 12px 7px;
         font-size: 11px;

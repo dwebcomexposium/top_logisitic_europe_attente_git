@@ -1253,7 +1253,7 @@ textarea:focus{
         max-width: 1587px;
     }
 }
-@media only screen and (max-height:620px){
+@media only screen and (max-height:612px){
 	.row.counter{
 		display: none;
 	}

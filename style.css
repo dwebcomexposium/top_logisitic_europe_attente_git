@@ -492,7 +492,7 @@ img#logo {
     border-radius: 40px;
     font-size: 11px;
     background: #202020;
-    color: var(--main-color);
+    color: #FFCF00;
 	    display: block;
     width: fit-content;
         margin: 30px auto 0 auto;
@@ -918,7 +918,7 @@ textarea:focus{
         
     }
     .counter{
-        width: 40%;
+        width: 45%;
     }
 }
 @media screen and (max-width:1024px) {
@@ -929,7 +929,7 @@ textarea:focus{
         background-size: cover !important;
     }
     .counter{
-        width: 40% !important;
+        width: 45% !important;
     }
     
 }
@@ -946,7 +946,7 @@ textarea:focus{
     }
     .counter{
         width: 93% !important;
-        transform: translateY(-15px) !important;
+        transform: translateY(-76px) !important;
     }
     .containerheader br {
         display: none;
@@ -1055,7 +1055,7 @@ textarea:focus{
             align-self: center;
         }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1022px) {
 	.ctaheader {
         text-align: center;
         flex-grow: inherit;
@@ -1133,7 +1133,6 @@ textarea:focus{
         margin: 0 auto !important;
     }
     .containercontent > .row:first-child {
-            margin-top: 4.5em !important;
     width: 93% !important;
     margin: 0 auto;
     }
@@ -1143,9 +1142,7 @@ textarea:focus{
     .rowpub {
         margin: 5em auto 2em auto !important;
     }
-    .firsttext{
-        margin-top: 0 !important;
-    }
+    
     .bandeaucontact p{
         font-size: 12px;
         padding-top: 10px;
@@ -1232,6 +1229,9 @@ textarea:focus{
     .half{
         width: 100%;
     }
+	.row.counter{
+		top: -4.3em;
+	}
 }
 
 @media (min-width: 1200px){
@@ -1251,4 +1251,12 @@ textarea:focus{
     .containerheader {
         max-width: 1587px;
     }
+}
+@media only screen and (max-height:620px){
+	.row.counter{
+		display: none;
+	}
+}
+@-ms-viewport{
+  width: device-width;
 }

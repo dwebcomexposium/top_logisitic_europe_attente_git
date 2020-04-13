@@ -230,6 +230,24 @@ div.textintro::before{
 .row.containerconference {
     margin-top: 6em !important;
 }
+.containerconference p span{
+	font-size: 11px;
+	display: block;
+	padding-top: 10px;
+	position: relative;
+	padding: 10px;
+	font-weight: 600;
+}
+.containerconference p span:before{
+	content: ' ';
+	position: absolute;
+	left: 0;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #FFCF00;
+	top: 15px;
+}
 .containerimg-auditorium{
     background-image: url(img/auditorium-l.jpg);
     min-height: 800px;

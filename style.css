@@ -227,6 +227,23 @@ div.textintro::before{
 
 
 /***** conférence *****/
+
+.lienpdf{
+	color: #000000; 
+	font-weight: 500;
+	position: relative;
+}
+
+.lienpdf:before {
+    bottom: 3px;
+    content: ' ';
+    background: #FFCF00;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
 .row.containerconference {
     margin-top: 6em !important;
 }
